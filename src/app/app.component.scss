@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+div {
+    &.main-content{
+        background-color: white;
+        padding: 0.5em 6em;
+    }
+}
+
+img {
+    &.masthead {
+        position: sticky;
+        top: 0px;
+        z-index: -10;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+
